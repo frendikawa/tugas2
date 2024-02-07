@@ -6,13 +6,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class Teacher extends Model
+class Subject extends Model
 {
     use HasFactory;
 
 
+
     /**
-     * Get all of the teacherSubject for the Teacher
+     * Get all of the teacherSubjects for the Subject
      *
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
